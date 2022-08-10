@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  background-color: #6d0041;
+}
+
+.nav-name{
+  font-size: 150%;
+}
+
+.inner-nav{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-nav{
+  float: right;
+}
+
+.nav-link-text{
+  font-size: 120%;
+}
+
+.nav-link{
+  color: #f7b100;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f7b100;
+}
+
+.fa-phone{
+  float: none;
+  transform: translate(50%, 0%);
+  color: #6d0041;
+}
